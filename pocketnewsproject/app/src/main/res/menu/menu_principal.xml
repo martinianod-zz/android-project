@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/my_news" android:title="My News"  android:orderInCategory="20" app:showAsAction="withText" android:icon="@android:drawable/ic_menu_add"/>
+
+    <item android:id="@+id/buscar" android:title="Buscar" app:showAsAction="ifRoom" app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/discover"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Discover"
+        app:showAsAction="ifRoom" />
+
+    <!--<item android:id="@+id/opcion2" android:title="Opcion 2" android:orderInCategory="101" app:showAsAction="never"/>
+
+    <item android:id="@+id/opcion3" android:title="Opcion 3" android:orderInCategory="102" app:showAsAction="never"/> -->
+
+</menu>

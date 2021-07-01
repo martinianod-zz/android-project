@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category " />
+
+        <Spinner
+            android:id="@+id/categories_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D6D6D6"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/countries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country " />
+
+        <Spinner
+            android:id="@+id/countries_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D6D6D6"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/app_name" />
+
+
+        <TextView
+            android:id="@+id/languages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language " />
+
+        <Spinner
+            android:id="@+id/languages_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D6D6D6"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="#009688"
+            android:background="@android:color/transparent"  />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/buscar_news_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Search"
+            android:textColor="#009688"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+</LinearLayout>

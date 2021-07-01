@@ -1,0 +1,137 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Sarah Perez",
+    "title": "Apple announces its 2021 Apple Design Award winners",
+    "description": "Apple incorporated the announcement of this year’s Apple Design Award winners into its virtual Worldwide Developer Conference (WWDC) online event, instead of waiting until the event had wrapped, like last year. Ahead of WWDC, Apple previewed the finalists, wh…",
+    "url": "https://techcrunch.com/2021/06/10/apple-announces-its-2021-apple-design-award-winners/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/Apple_WWDC21-Apple-Design-Awards_061021.jpg?w=577",
+    "publishedAt": "2021-06-10T23:05:03Z",
+    "content": "Apple incorporated the announcement of this year’s Apple Design Award winners into its virtual Worldwide Developer Conference (WWDC) online event, instead of waiting until the event had wrapped, like… [+3946 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Rebecca Bellan",
+    "title": "Apple confirms hiring of Ulrich Kranz, former CEO of EV company Canoo",
+    "description": "Apple has hired the former co-founder and CEO of electric vehicle company Canoo to help with the development of the Apple Car, Bloomberg first reported, citing unnamed sources. Apple has confirmed to TechCrunch it has hired Kranz, but did not provide further …",
+    "url": "https://techcrunch.com/2021/06/10/apple-confirms-hiring-of-ulrich-kranz-former-ceo-of-ev-company-canoo/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/09/clip_image001-1.jpeg?w=711",
+    "publishedAt": "2021-06-10T22:45:36Z",
+    "content": "Apple has hired the former co-founder and CEO of electric vehicle company Canoo to help with the development of the Apple Car, Bloomberg first reported, citing unnamed sources. Apple has confirmed to… [+1412 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Jeff Bussgang",
+    "title": "After 30 years, 'Crossing the Chasm' is due for a refresh",
+    "description": "\"The chasm,\" a difficult transitional period from visionary early adopters to mainstream customers has been one of the canonical foundational concepts to product-market fit for the past three decades.",
+    "url": "https://techcrunch.com/2021/06/10/after-30-years-crossing-the-chasm-is-due-for-a-refresh/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-170576073.jpg?w=596",
+    "publishedAt": "2021-06-10T22:27:50Z",
+    "content": "When I was at Open Market in the 1990s, our CEO gave out the recently published book “Crossing the Chasm” to the executive team and told us to read it to gain insight into why we had hit a speed bump… [+2974 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Alex Wilhelm",
+    "title": "Daily Crunch: With $639M funding found, Klarna is Europe's highest-valued private fintech",
+    "description": "Hello friends and welcome to Daily Crunch, bringing you the most important startup, tech and venture capital news in a single package.",
+    "url": "https://techcrunch.com/2021/06/10/daily-crunch-17/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/12/Klarna_HQ_entrance.jpg?w=600",
+    "publishedAt": "2021-06-10T22:10:17Z",
+    "content": "To get a roundup of TechCrunchs biggest and most important stories delivered to your inbox every day at 3 p.m. PDT, subscribe here.\r\nHello and welcome to Daily Crunch for June 10, 2021. A short note … [+6262 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Matt Burns, Drew Olanoff",
+    "title": "Pitch us, Pittsburgh",
+    "description": "We’re getting closer to putting our spotlight on Pittsburgh, and there’s quite a bit going on behind the scenes. We’ve been spending a ton of time chatting with folks who are on the ground in the city, and we’ve had a great time learning and listening, which …",
+    "url": "https://techcrunch.com/2021/06/10/pitch-us-pittsburgh/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/pittsburgh-featured.jpg?w=711",
+    "publishedAt": "2021-06-10T20:35:15Z",
+    "content": "Were getting closer to putting our spotlight on Pittsburgh, and theres quite a bit going on behind the scenes. Weve been spending a ton of time chatting with folks who are on the ground in the city, … [+1954 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Devin Coldewey",
+    "title": "Apple's latest accessibility features are for those with limb and vocal differences",
+    "description": "Apple announced a batch of accessibility features at WWDC 2021 that cover a wide variety of needs, among them a few for people who can’t touch or speak to their devices in the ordinary way. With Assistive Touch, Sound Control, and other improvements, these fo…",
+    "url": "https://techcrunch.com/2021/06/10/apples-latest-accessibility-features-are-for-those-with-limb-and-vocal-differences/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/06/Apple-accessibility.png?w=719",
+    "publishedAt": "2021-06-10T20:34:58Z",
+    "content": "Apple announced a batch of accessibility features at WWDC 2021 that cover a wide variety of needs, among them a few for people who can’t touch or speak to their devices in the ordinary way. With Assi… [+4075 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Romain Dillet",
+    "title": "Ledger raises $380 million for its crypto hardware wallet",
+    "description": "French startup Ledger has raised a $380 million Series C funding round led by 10T Holdings. Following today’s funding round, the company has reached a valuation of $1.5 billion. Other investors in the funding round include existing investors Cathay Innovation…",
+    "url": "https://techcrunch.com/2021/06/10/ledger-raises-380-million-for-its-crypto-hardware-wallet/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/01/Ledger-Nano-X-1.jpg?w=704",
+    "publishedAt": "2021-06-10T19:09:03Z",
+    "content": "French startup Ledger has raised a $380 million Series C funding round led by 10T Holdings. Following todays funding round, the company has reached a valuation of $1.5 billion.\r\nOther investors in th… [+1909 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Miranda Halpern",
+    "title": "Growth marketing amid the pandemic: An interview with Right Side Up's Tyler Elliston",
+    "description": "We caught up with Tyler Elliston, founder of growth marketing firm Right Side Up and occasional contributor at TechCrunch, about his experiences and what he’s seeing as we exit the pandemic.",
+    "url": "https://techcrunch.com/2021/06/10/growth-marketing-amid-the-pandemic-an-interview-with-right-side-ups-tyler-elliston/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/08/tyler-headshot_low-1.jpg?w=400",
+    "publishedAt": "2021-06-10T19:03:46Z",
+    "content": "Growth marketers are busy today helping all sorts of startups take advantage of the market boom, but it has been a hard journey through the pandemic.\r\nWe caught up with Tyler Elliston, founder of gro… [+6831 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Darrell Etherington",
+    "title": "Scale to launch a mapping product to address the changing needs of its autonomous driving customers",
+    "description": "Solving the varied challenges that arise in autonomous driving is an incredibly complex task, but even attempting to get started means ensuring you have quality data that’s accurate and well-annotated. That’s where Scale comes in, having identified early on t…",
+    "url": "https://techcrunch.com/2021/06/10/scale-to-launch-a-mapping-product-to-address-the-changing-needs-of-its-autonomous-driving-customers/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/12/GettyImages-1160440766.jpg?w=600",
+    "publishedAt": "2021-06-10T18:56:57Z",
+    "content": "Solving the varied challenges that arise in autonomous driving is an incredibly complex task, but even attempting to get started means ensuring you have quality data that’s accurate and well-annotate… [+2705 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Shiran Shalev, Aaron Rinberg, Lior Mallul",
+    "title": "The fintech endgame: New supercompanies combine the best of software and financials",
+    "description": "A new and attractive hybrid category of company is emerging at the intersection of software and financial services, creating buzz in the investment and entrepreneurial communities.",
+    "url": "https://techcrunch.com/2021/06/10/the-fintech-endgame-new-supercompanies-combine-the-best-of-software-and-financials/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-597317537.jpg?w=599",
+    "publishedAt": "2021-06-10T18:44:27Z",
+    "content": "More posts by this contributor\r\nMore posts by this contributor\r\nIf money is the ultimate commodity, how can fintechs — which sell money, move money or sell insurance against monetary loss — build pro… [+2527 chars]"
+    }
+    ]
+    }
+    
