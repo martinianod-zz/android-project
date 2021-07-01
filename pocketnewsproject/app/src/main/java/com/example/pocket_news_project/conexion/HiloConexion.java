@@ -18,6 +18,7 @@ public class HiloConexion extends Thread {
     public static final int IMAGEN = 1;
     public static final int NOTICIAS = 2;
 
+    private int position;
     private String urlString;
     private Handler handler;
 
@@ -25,8 +26,9 @@ public class HiloConexion extends Thread {
 
     private Context applicationContext;
 
-    public HiloConexion(Handler handler, Context applicationContext, String url, boolean isImage) {
+    public HiloConexion(Handler handler, Context applicationContext, String url, int position, boolean isImage) {
 
+        this.position = position;
         this.handler = handler;
         this.applicationContext = applicationContext;
         this.urlString = url;
@@ -46,10 +48,12 @@ public class HiloConexion extends Thread {
                 imagesJson = conexionHTTP.obtenerRespuesta(urlString);
                 Message msg = new Message();
                 msg.obj = imagesJson;
+                msg.arg1 = position;
                 handler.sendMessage(msg);
             }catch (RuntimeException e){
                 Message msg = new Message();
                 msg.obj = null;
+                msg.arg1 = position;
                 handler.sendMessage(msg);
             }
 

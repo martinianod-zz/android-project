@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         handler = new Handler(this);
 
-        HiloConexion hiloNews = new HiloConexion(handler, getApplicationContext(), "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&languages=es,en&limit=100", false);
+        HiloConexion hiloNews = new HiloConexion(handler, getApplicationContext(), "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&languages=es,en&limit=100", 0, false);
         hiloNews.start();
 
 /*        List<News> newsList = new ArrayList<News>();
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         Log.d("onQueryTextSubmit()", "Buscar por palabra completa");
 
-        HiloConexion hiloNews = new HiloConexion(handler, getApplicationContext(), "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&languages=es,en&limit=100&keywords=" + query, false);
+        HiloConexion hiloNews = new HiloConexion(handler, getApplicationContext(), "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&languages=es,en&limit=100&keywords=" + query, 0, false);
         hiloNews.start();
 
         return true;
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         Log.d("onQueryTextChange()", "Buscar por coincidencia de caracteres");
 
-        HiloConexion hiloNews = new HiloConexion(handler, getApplicationContext(), "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&languages=es,en&limit=100&keywords=" + newText, false);
+        HiloConexion hiloNews = new HiloConexion(handler, getApplicationContext(), "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&languages=es,en&limit=100&keywords=" + newText, 0, false);
         hiloNews.start();
 
         return true;

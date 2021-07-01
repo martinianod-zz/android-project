@@ -35,6 +35,11 @@ public class NewsViewHolder extends ViewHolder implements View.OnClickListener {
         this.position = position;
     }
 
+
+    public int getHolderPosition(){
+        return this.position;
+    }
+
     @Override
     public void onClick(View view) {
         myOnCardViewClick.onCardViewClick(position);

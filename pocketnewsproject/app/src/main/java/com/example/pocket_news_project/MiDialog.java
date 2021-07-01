@@ -2,7 +2,6 @@ package com.example.pocket_news_project;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -10,9 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CompoundButton;
 import android.widget.Spinner;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,9 +17,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
 import com.example.pocket_news_project.conexion.HiloConexion;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MiDialog extends DialogFragment implements View.OnClickListener {
 
@@ -104,7 +98,7 @@ public class MiDialog extends DialogFragment implements View.OnClickListener {
         String c_value = c_enum.toString();
 
 
-        HiloConexion hiloNews = new HiloConexion(handler, applicationContext, "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&limit=100&languages="+l_value+"&countries="+c_value+"&categories="+category, false);
+        HiloConexion hiloNews = new HiloConexion(handler, applicationContext, "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&limit=100&languages="+l_value+"&countries="+c_value+"&categories="+category, 0, false);
         hiloNews.start();
 
         dismiss();

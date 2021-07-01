@@ -61,7 +61,7 @@ public class NewsAdapter extends Adapter<NewsViewHolder> implements Handler.Call
 
 
         handler = new Handler(this);
-        HiloConexion hiloImages = new HiloConexion(handler , context , news.getUrlToImage() , true);
+        HiloConexion hiloImages = new HiloConexion(handler , context , news.getUrlToImage() , position , true);
         hiloImages.start();
 
 
@@ -80,8 +80,11 @@ public class NewsAdapter extends Adapter<NewsViewHolder> implements Handler.Call
         if (message.obj != null){
             byte[] img = (byte[]) message.obj;
 
-            holder.imageNews.setImageBitmap(BitmapFactory.decodeByteArray(img , 0 , img.length));
-            news.setNewsImage(img);
+            if (message.arg1 == holder.getHolderPosition()){
+                holder.imageNews.setImageBitmap(BitmapFactory.decodeByteArray(img , 0 , img.length));
+                news.setNewsImage(img);
+            }
+
         }
 
         return false;
