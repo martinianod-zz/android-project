@@ -6,7 +6,9 @@ import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -34,33 +36,10 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         setContentView(R.layout.activity_main);
         setTitle("Pocket News");
 
-        /*SharedPreferences MySavedNews = getSharedPreferences("list_news", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = MySavedNews.edit();
-        editor.clear();
-        editor.apply();*/
-
         handler = new Handler(this);
 
         HiloConexion hiloNews = new HiloConexion(handler, getApplicationContext(), "http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&languages=es,en&limit=100", 0, false);
         hiloNews.start();
-
-/*        List<News> newsList = new ArrayList<News>();
-        newsList.add(new News("title1","description 1" , null , null , null , "20:01"));
-        newsList.add(new News("title2","description 2" , null , null , null , "15:30"));
-        newsList.add(new News("title3","description 3" , null , null , null , "12:51"));
-
-
-
-
-
-        RecyclerView list = (RecyclerView)findViewById(R.id.rvNews);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        list.setLayoutManager(layoutManager);
-        NewsAdapter adapter = new NewsAdapter(newsList);
-        list.setAdapter(adapter);
-
-
- */
 
 
     }

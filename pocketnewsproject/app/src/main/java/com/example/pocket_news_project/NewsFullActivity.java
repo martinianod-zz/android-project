@@ -32,9 +32,6 @@ import java.util.List;
 
 public class NewsFullActivity extends AppCompatActivity {
 
-    //SharedPreferences MySavedNews;
-    //SharedPreferences.Editor editor;
-
     News news;
 
     @Override
@@ -50,18 +47,6 @@ public class NewsFullActivity extends AppCompatActivity {
 
 
         news = (News) intent.getSerializableExtra("news");
-
-        /*Bundle extras = intent.getExtras();
-
-
-        TextView tvTitle = findViewById(R.id.titleFull);
-        tvTitle.setText(news.getTitle());
-
-        TextView tvDescription = findViewById(R.id.descriptionFull);
-        tvDescription.setText(news.getContent());
-
-        ImageView imageView = findViewById(R.id.imgNews);
-        imageView.setImageBitmap(BitmapFactory.decodeByteArray(news.getNewsImage() , 0 , news.getNewsImage().length));*/
 
         WebView webview = (WebView) findViewById(R.id.webView);
 
@@ -117,12 +102,6 @@ public class NewsFullActivity extends AppCompatActivity {
         } else {
             getMenuInflater().inflate(R.menu.menu_news, menu);
         }
-
-
-        //MenuItem menuItem = menu.findItem(R.id.buscar);
-
-       /* androidx.appcompat.widget.SearchView searchView = (SearchView) menuItem.getActionView();
-        searchView.setOnQueryTextListener(this);*/
 
         return true;
     }

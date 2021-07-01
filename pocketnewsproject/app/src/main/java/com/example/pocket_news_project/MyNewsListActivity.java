@@ -27,7 +27,6 @@ import java.util.List;
 
 public class MyNewsListActivity extends AppCompatActivity implements MyOnCardViewClick {
 
-    //SharedPreferences mySavedNews;
     List<News> listNewsSaved = new ArrayList<>();
 
     @Override

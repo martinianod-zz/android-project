@@ -41,7 +41,6 @@ public class ConexionHTTP {
 
                 is.close();
 
-                //return baos.toString();
                 return baos.toByteArray();
 
             }else {
@@ -58,6 +57,5 @@ public class ConexionHTTP {
             throw  new RuntimeException(e);
         }
 
-        //   return  null;
     }
 }

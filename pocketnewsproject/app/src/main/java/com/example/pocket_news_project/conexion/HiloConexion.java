@@ -59,27 +59,9 @@ public class HiloConexion extends Thread {
 
         }else {
 
-            //byte[] newsJson = conexionHTTP.obtenerRespuesta("http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&languages=es,en" );
-            //byte[] newsJson = conexionHTTP.obtenerRespuesta("http://api.mediastack.com/v1/news?access_key=f54a3fd41406f035a3ce65504967147f&sort=popularity&languages=es,en&limit=100" );
-
             byte[] newsJson = conexionHTTP.obtenerRespuesta(urlString);
 
             String jsonString = new String(newsJson);
-            /*try {
-                InputStream is = applicationContext.getAssets().open("news.json");
-
-                int size = is.available();
-                byte[] buffer = new byte[size];
-                is.read(buffer);
-                is.close();
-
-                jsonString = new String(buffer, "UTF-8");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }*/
-
-
-            //String s = new String(jsonString);
 
             Message msg = new Message();
             msg.obj = this.parserJson(jsonString);
@@ -98,8 +80,6 @@ public class HiloConexion extends Thread {
 
             JSONObject newsListJson = new JSONObject(s);
             JSONArray articles = newsListJson.getJSONArray("data");
-            //JSONArray jsonArray = new JSONArray(s);
-
             for (int i = 0; i < articles.length(); i++) {
 
                 JSONObject jsonObject = articles.getJSONObject(i);

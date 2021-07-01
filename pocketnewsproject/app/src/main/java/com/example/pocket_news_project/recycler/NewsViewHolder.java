@@ -17,7 +17,6 @@ public class NewsViewHolder extends ViewHolder implements View.OnClickListener {
 
     TextView txtTitle;
     TextView txtDescription;
-    TextView txtContent;
     ImageView imageNews;
 
     public NewsViewHolder(@NonNull View itemView, MyOnCardViewClick myOnCardViewClick) {
@@ -25,7 +24,6 @@ public class NewsViewHolder extends ViewHolder implements View.OnClickListener {
         txtTitle = itemView.findViewById(R.id.title);
         txtDescription = itemView.findViewById(R.id.description);
         imageNews = itemView.findViewById(R.id.imgNews);
-       // txtContent = itemView.findViewById(R.id.textView3);
 
         this.myOnCardViewClick = myOnCardViewClick;
         itemView.setOnClickListener(this);
